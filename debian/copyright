@@ -1,0 +1,115 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: AMQP Protocol
+Upstream-Contact: http://www.amqp.org/contact
+Source: http://www.amqp.org/resources/download
+ http://www.rabbitmq.com/protocol.html
+
+Files: *
+Copyright: 2006-2011, Bank of America, N.A.
+  2006-2011, Barclays Bank PLC
+  2006-2011, Cisco Systems
+  2006-2011, Credit Suisse
+  2006-2011, Deutsche Boerse
+  2006-2011, Envoy Technologies Inc.
+  2006-2011, Goldman Sachs
+  2006-2011, HCL Technologies Ltd
+  2006-2011, IIT Software GmbH
+  2006-2011, iMatix Corporation
+  2006-2011, INETCO Systems Limited
+  2006-2011, Informatica Corporation
+  2006-2011, JPMorgan Chase & Co.
+  2006-2011, Kaazing Corporation, N.A
+  2006-2011, Microsoft Corporation
+  2006-2011, my-Channels
+  2006-2011, Novell
+  2006-2011, Progress Software
+  2006-2011, Red Hat Inc.
+  2006-2011, Software AG
+  2006-2011, Solace Systems Inc.
+  2006-2011, StormMQ Ltd.
+  2006-2011, Tervela Inc.
+  2006-2011, TWIST Process Innovations Ltd
+  2006-2011, VMware, Inc.
+  2006-2011, WS02 Inc.
+License: BSD-3-clause
+
+Files: debian/*
+Copyright: 2012, Jonas Smedegaard <dr@jones.dk>
+License: GPL-3+
+
+Files: debian/legacy/*
+ debian/RabbitMQ/*
+Copyright: 2009, AMQP Working Group
+License: BSD-3-clause
+
+Files: debian/RabbitMQ/*
+Copyright: 2009, AMQP Working Group
+  2010-2013 VMware, Inc.
+License: BSD-3-clause
+
+Files: debian/Qpid/*
+Copyright: 2006-2008 Apache Software Foundation
+License: Apache-2.0
+
+Files: debian/Qpid/*.stripped.*
+Copyright: 2006-2007, 29West Inc.
+  2006-2007, Cisco Systems
+  2006-2007, Credit Suisse
+  2006-2007, Deutsche Borse Systems
+  2006-2007, Envoy Technologies, Inc.
+  2006-2007, Goldman Sachs
+  2006-2007, iMatix Corporation sprl.
+  2006-2007, IONA Technologies PLC
+  2006-2007, JPMorgan Chase Bank Inc. N.A
+  2006-2007, Novell
+  2006-2007, Rabbit Technologies Ltd.
+  2006-2007, Red Hat, Inc.
+  2006-2007, TWIST Process Innovations ltd
+  2009, AMQP Working Group
+License: BSD-3-clause
+
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are
+ met:
+  1. Redistributions of source code must retain the above copyright
+     notice, this list of conditions and the following disclaimer.
+  2. Redistributions in binary form must reproduce the above copyright
+     notice, this list of conditions and the following disclaimer in the
+     documentation and/or other materials provided with the
+     distribution.
+  3. The name of the author may not be used to endorse or promote
+     products derived from this software without specific prior written
+     permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT,
+ INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+ STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+ IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGE.
+
+License: Apache-2.0
+ Comment:
+ .
+ On Debian systems the 'Apache License' version 2.0 is located in
+ '/usr/share/common-licenses/Apache-2.0'.
+
+License: GPL-3+
+ This file is free software; you can redistribute it and/or modify it
+ under the terms of the GNU General Public License as published by the
+ Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ Comment:
+ .
+ On Debian systems the 'GNU General Public License' version 3 is located
+ in '/usr/share/common-licenses/GPL-3'.
+ .
+ You should have received a copy of the GNU General Public License along
+ with this program.  If not, see <http://www.gnu.org/licenses/>.

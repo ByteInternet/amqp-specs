@@ -1,0 +1,8 @@
+AMQP specs for Debian
+---------------------
+
+Legacy protocol specification 0-10 is not included with this package,
+because that revision have not been released under a DFSG-free license.
+
+
+ -- Jonas Smedegaard <dr@jones.dk>  Fri, 19 Apr 2013 19:53:07 +0200

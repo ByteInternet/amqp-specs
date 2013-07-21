@@ -1,0 +1,4 @@
+# Run the "uscan" command to check for upstream updates and more.
+version=3
+#opts=uversionmangle=s/[-r]/./ \
+http://www.amqp.org/resources/download .*/files/amqp-(\d.*)-stripped\.tgz

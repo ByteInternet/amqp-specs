@@ -1,0 +1,15 @@
+amqp-specs (1-0r0-2) unstable; urgency=low
+
+  * Add 0-9-1-rabbit spec from rabbitmq.com.
+  * Add 0-10 and *-qpid specs from qpid.apache.org.
+  * Mention explicitly in source package the source URL for legacy
+    specs.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Sun, 21 Jul 2013 15:07:13 +0200
+
+amqp-specs (1-0r0-1) unstable; urgency=low
+
+  * Initial packaging release.
+    Closes: bug#705761.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Sat, 20 Apr 2013 11:58:48 +0200

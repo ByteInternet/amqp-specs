@@ -1,0 +1,37 @@
+#!/usr/bin/make -f
+# -*- mode: makefile; coding: utf-8 -*-
+# Copyright © 2013 Jonas Smedegaard <dr@jones.dk>
+# Description: Main Debian packaging script for AMQP Protocol
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 3, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+DEB_BUILDDIR = build
+
+include /usr/share/cdbs/1/rules/upstream-tarball.mk
+include /usr/share/cdbs/1/rules/utils.mk
+include /usr/share/cdbs/1/rules/debhelper.mk
+
+pkg = $(DEB_UPSTREAM_PACKAGE)
+
+DEB_UPSTREAM_URL = http://www.amqp.org/sites/amqp.org/files
+DEB_UPSTREAM_TARBALL_BASENAME = amqp-$(DEB_UPSTREAM_TARBALL_VERSION)-stripped
+DEB_UPSTREAM_TARBALL_EXTENSION = tgz
+DEB_UPSTREAM_RECEIVED_EXTENSION = tar
+DEB_UPSTREAM_TARBALL_MD5 = abe24d75f16dfdb02401fbb6d9a3b810
+
+get-orig-source: get-orig-source-qpid
+
+get-orig-source-qpid:
+	wget -m -np -nd -R amqp.0-10.dtd,index.html -P debian/Qpid https://svn.apache.org/repos/asf/qpid/trunk/qpid/specs/
+	rm -f debian/Qpid/robots.txt

@@ -1,0 +1,11 @@
+*.xml /usr/share/amqp/specs/1-0
+debian/legacy/amqp0-9-1.* /usr/share/amqp/specs/0-9-1
+debian/legacy/amqp0-9.* /usr/share/amqp/specs/0-9
+debian/legacy/amqp0-8.* /usr/share/amqp/specs/0-8
+debian/RabbitMQ/amqp0-9-1.stripped.extended.xml /usr/share/amqp/specs/0-9-1-rabbit
+
+debian/Qpid/amqp0-8-qpid.stripped.xml /usr/share/amqp/specs/0-8-qpid
+debian/Qpid/amqp0-9-qpid.stripped.xml /usr/share/amqp/specs/0-9-qpid
+debian/Qpid/amqp0-9-1.stripped.xml /usr/share/amqp/specs/0-9-1-qpid
+debian/Qpid/amqp.0-10.stripped.xml /usr/share/amqp/specs/0-10
+debian/Qpid/amqp.0-10-qpid-errata.stripped.xml /usr/share/amqp/specs/0-10-qpid
